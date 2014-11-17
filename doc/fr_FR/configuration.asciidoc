@@ -1,1 +1,8 @@
-TODO
+Il fonctionne de manière très simple  :
+
+Il suffit dans PushingBox de créer un scénario puis de créer une action comme cela :
+
+- Puis dans Jeedom de créer un nouvel équipement, de le configurer : 
+- D’ajouter une commande en lui donnant un nom et de copier/coller le DeviceID du scénario tout juste créé
+
+Et voilà c’est fini, dans Jeedom vous aurez maintenant une commande de type message qui sera utilisable dans les scénarios.
