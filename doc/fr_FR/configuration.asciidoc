@@ -1,8 +1,98 @@
-Il fonctionne de manière très simple  :
+=== Configuration
 
-Il suffit dans PushingBox de créer un scénario puis de créer une action comme cela :
+Le plugin ne nécessite aucune configuration il faut juste l'activer : 
 
-- Puis dans Jeedom de créer un nouvel équipement, de le configurer : 
-- D’ajouter une commande en lui donnant un nom et de copier/coller le DeviceID du scénario tout juste créé
+image::../images/pushingbox1.PNG[]
 
-Et voilà c’est fini, dans Jeedom vous aurez maintenant une commande de type message qui sera utilisable dans les scénarios.
+=== Configuration des équipements
+
+La configuration des équipements pushiingbox est accessible à partir du menu plugin : 
+
+image::../images/pushingbox2.PNG[]
+
+Voilà à quoi ressemble la page du plugin Pushingbox : 
+
+image::../images/pushingbox3.PNG[]
+
+A partir de la vous pouvez ajouter un équipement ou en éditer un existant (si il y en a un qui existe)
+
+Voila à quoi ressemble la page de configuration d'un équipement pushing box : 
+
+image::../images/pushingbox14.PNG[]
+
+[icon="../images/plugin/tip.png"]
+[TIP]
+Comme à beaucoup d'endroit sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d'accès rapide (vous pouvez à partir de votre profils le laisser toujours visible)
+
+Vous retrouvez ici toute la configuration de votre équipement : 
+
+* *Nom de l'équipement PushingBox* : nom de votre équipement PushingBox
+* *Objet parent* : indique l'objet parent auquel appartient l'équipement
+* *Activer* : permet de rendre votre équipement actif
+* *Visible* : le rend visible sur le dashboard
+
+En dessous vous retrouvez la liste des commandes : 
+
+* *Nom* : nom de la commande
+* *DevId* : device ID du scénario pushingBox (voir chapitre Mise en place avec pushingBox)
+* *Configuration avancée (petites roues crantées)* : permet d'afficher la configuration avancée de la commande (méthode d'historisation, widget...)
+* *Tester* : permet de tester la commande
+* *Supprimer (signe moins) * : permet de supprimer la commande
+
+=== Mise en place avec pushingBox
+
+Tout d'abord il faut vous connecter à votre compte pushingbox puis creer le service voulu, si ce n'est pas deja fait : 
+
+Allez sur service puis ajoutez en un : 
+
+image::../images/pushingbox4.PNG[]
+
+Choisisez les service voulu (ici mail pour l'exemple) : 
+
+image::../images/pushingbox5.PNG[]
+
+Configurer les options en fonction du service :
+
+image::../images/pushingbox6.PNG[]
+
+Vous devez ensuite le retrouvez dans la liste des services : 
+
+image::../images/pushingbox7.PNG[]
+
+Il faut ensuite ajouter un scénario (page My scenario, puis donnez lui un nom et enfin add) :
+
+image::../images/pushingbox8.PNG[]
+
+Cliquez ensuite sur ajouter une action : 
+
+image::../images/pushingbox9.PNG[]
+
+Selectionnez le service voulu (ici mail pour envoyer un mail)
+
+image::../images/pushingbox10.PNG[]
+
+Dans le titre (subject) mettez $title$ et dans le message (body) mettez $message$ et validez :
+
+image::../images/pushingbox11.PNG[]
+
+Vous devriez avoir : 
+
+image::../images/pushingbox12.PNG[]
+
+[icon="../images/plugin/tip.png"]
+[TIP]
+Il se peux que certain service n'est pas de champs pour le titre dans ce cas dans le message mettez $title$ $message$
+
+[icon="../images/plugin/tip.png"]
+[TIP]
+Il est possible dans un meme scénario de mettre plusieurs action dans ce cas dans les options mettez toujours $title$ dans le titre et $message$ dans le message
+
+Il vous faut ensuite recuperer votre DeviceID pour le mettre dans jeedom au niveau de la commande :
+
+image::../images/pushingbox13.PNG[]
+
+[icon="../images/plugin/tip.png"]
+[TIP]
+Mettez bien votre deviceId dans le champs devId
+
+Voila la configuration est terminée

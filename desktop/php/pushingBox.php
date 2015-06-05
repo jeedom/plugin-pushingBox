@@ -51,14 +51,14 @@ foreach ($eqLogics as $eqLogic) {
             <legend><i class="fa fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}<i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i></legend>
             <div class="form-group">
                 <label class="col-sm-3 control-label">{{Nom de l'équipement PushingBox}}</label>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" />
                     <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement pushingBox}}"/>
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-sm-4 control-label" >{{Objet parent}}</label>
-                <div class="col-sm-8">
+                <label class="col-sm-3 control-label" >{{Objet parent}}</label>
+                <div class="col-sm-2">
                     <select class="eqLogicAttr form-control" data-l1key="object_id">
                         <option value="">{{Aucun}}</option>
                         <?php
@@ -70,11 +70,11 @@ foreach (object::all() as $object) {
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-sm-4 control-label">{{Activer}}</label>
+                <label class="col-sm-3 control-label">{{Activer}}</label>
                 <div class="col-sm-1">
                     <input type="checkbox" class="eqLogicAttr" data-l1key="isEnable" checked/>
                 </div>
-                <label class="col-sm-4 control-label">{{Visible}}</label>
+                <label class="col-sm-1 control-label">{{Visible}}</label>
                 <div class="col-sm-1">
                     <input type="checkbox" class="eqLogicAttr" data-l1key="isVisible" checked/>
                 </div>
