@@ -2,7 +2,7 @@
 == PushingBox
 
 === Description
-Plugin permetant d'utiliser l'api pushing box
+Plugin permettant d'utiliser l'API PushingBox.
 
 include::configuration.asciidoc[]
 
