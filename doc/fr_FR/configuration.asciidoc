@@ -6,7 +6,7 @@ image::../images/pushingbox1.PNG[]
 
 === Configuration des équipements
 
-La configuration des équipements pushiingbox est accessible à partir du menu plugin : 
+La configuration des équipements pushingBox est accessible à partir du menu plugin : 
 
 image::../images/pushingbox2.PNG[]
 
