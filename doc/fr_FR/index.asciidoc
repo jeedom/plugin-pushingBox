@@ -1,11 +1,6 @@
-:icons:
-== PushingBox
+= PushingBox
 
-=== Description
+== Description
 Plugin permettant d'utiliser l'API PushingBox.
 
 include::configuration.asciidoc[]
-
-'''
-=== FAQ
-include::faq.asciidoc[]
