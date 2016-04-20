@@ -23,7 +23,7 @@ foreach ($eqLogics as $eqLogic) {
    </div>
 
    <div class="col-lg-10 col-md-9 col-sm-8 eqLogicThumbnailDisplay" style="border-left: solid 1px #EEE; padding-left: 25px;">
-    <legend>{{Mes équipements PushingBox}}
+    <legend><i class="icon techno-phone3"></i>  {{Mes Equipements PushingBox}}
     </legend>
 
     <div class="eqLogicThumbnailContainer">
@@ -81,7 +81,7 @@ foreach (object::all() as $object) {
     </fieldset>
 </form>
 
-<legend>{{PushingBox}}</legend>
+<legend><i class="fa fa-list-alt"></i>  {{PushingBox}}</legend>
 <div class="alert alert-info">
     {{Pour un parfaite intégration de PushingBox et Jeedom, dans votre scenario PushingBox il faut mettre dans titre "$title$" et dans message "$message$".}}
 </div>
