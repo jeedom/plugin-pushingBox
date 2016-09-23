@@ -3,12 +3,9 @@
     <id>pushingBox</id>
     <name>PushingBox</name>
     <description>Plugin pour utiliser PushingBox</description>
-    <icon>fa fa-signal</icon>
     <licence>AGPL</licence>
-    <author>Loïc Gevrey</author>
-    <installation>Aucune</installation>
+    <author>Loïc</author>
     <require>1.10</require>
-    <version>1.0</version>
     <category>communication</category>
 </info>
 
