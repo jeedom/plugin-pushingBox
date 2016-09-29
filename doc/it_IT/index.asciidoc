@@ -1,0 +1,6 @@
+= PushingBox
+
+== Description
+Plugin permettant d'utiliser l'API PushingBox.
+
+include::configuration.asciidoc[]
