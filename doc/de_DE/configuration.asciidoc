@@ -1,4 +1,4 @@
-== Configuration
+== Konfiguration
 
 Le plugin ne nécessite aucune configuration il faut juste l'activer : 
 
