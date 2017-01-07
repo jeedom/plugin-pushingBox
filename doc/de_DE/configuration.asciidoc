@@ -6,11 +6,11 @@ image::../images/pushingbox1.PNG[]
 
 === Geräte Konfiguration
 
-La configuration des équipements PushingBox est accessible à partir du menu plugin : 
+Die Konfiguration von PushingBox-Geräten ist in dem Plugin-Menü verfügbar : 
 
 image::../images/pushingbox2.PNG[]
 
-Voilà à quoi ressemble la page du plugin Pushingbox : 
+So sieht die Seite des Pushingbox-Plugin aus : 
 
 image::../images/pushingbox3.PNG[]
 
