@@ -1,0 +1,9 @@
+{
+	"id" : "pushingBox",
+	"name" : "PushingBox",
+	"description" : "Plugin pour utiliser PushingBox",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "3.0",
+	"category" : "communication"
+}
