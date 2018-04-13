@@ -3,9 +3,11 @@
 	"name" : "PushingBox",
 	"description" : "Plugin pour utiliser PushingBox",
 	"licence" : "AGPL",
-	"author" : "Loïc",
+	"author" : "Jeedom SAS",
 	"require" : "3.0",
 	"category" : "communication",
-	"changelog" : "https://github.com/jeedom/plugin-pushingBox/blob/stable/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-pushingBox/blob/stable/doc/#language#/index.asciidoc"
+	"changelog" : "https://jeedom.github.io/plugin-pushingBox/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-pushingBox/#language#/",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
 }
